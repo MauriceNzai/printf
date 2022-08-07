@@ -19,6 +19,7 @@ int (*f)(va_list);
 } print_t;
 
 int _printf(const char *format, ...);
+int (*check_format(const char *format))(va_list);
 int _putchar(char c);
 int print_c(va_list c);
 int print_s(va_list s);
