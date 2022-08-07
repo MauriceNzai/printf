@@ -2,9 +2,9 @@ PROJECT:- OWN PRINTF FUNCTION _printf(). REPOSITORY:- printf. CONTRIBUTORS:- Mau
 
 
 _printf is a function that does formatted printing. In this project we develop this function for simple printing and the specifications for formatted printing.
-
 Depending on yhe content in the parameter list (), the function will use simple printing or use the specifiers for formatted printing.
 In this project, we concentrate on Task 0, and Task 1 which are mandatory. The advanced tasks will be tackled with time
+
 
 Task 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
 
@@ -14,3 +14,8 @@ Returns: the number of characters printed (excluding the null byte used to end o
 write output to stdout, the stadard output streamm.
 format is a character string. The format string is composed of zero or more directives.
 You need to handle the following conversion specifiers: c, s, and %.
+
+We will use two principle functions; _printf and check_format
+The _printf function prints the output as per the specifier identifed by check_format fucntion.
+The check_format function will search for the right specifier and send it to the _printf function
+The specifier functions will give the specific directives.
