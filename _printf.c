@@ -43,7 +43,7 @@ counter += f(ap);
 continue;
 }
 }
-i++;
+	i++;
 }
 va_end(ap);
 return (counter);
