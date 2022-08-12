@@ -1,6 +1,5 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
-
 #include <stdarg.h>
 #include <stdio.h>
 
@@ -12,7 +11,7 @@
 
 typedef struct print
 {
- 
+
 char *t;
 int (*f)(va_list);
 
@@ -27,5 +26,5 @@ int print_i(va_list i);
 int print_d(va_list d);
 
 
-#endif  /* _MAIN_H */
+#endif  /* _MAIN_H_ */
 
