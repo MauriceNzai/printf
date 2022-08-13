@@ -1,8 +1,6 @@
 #include "main.h"
 #include <stdarg.h>
 
-
-
 /**
  * check_format - checks if there is a valid format specifier
  * @format: possible valid format specifier
@@ -18,9 +16,15 @@ print_t p[] = {
 {"s", print_s},
 {"i", print_i},
 {"d", print_d},
-
-
-
+{"b", print_b},
+{"u", print_u},
+{"o", print_o},
+{"x", print_x},
+{"X", print_X},
+{"S", print_S},
+{"p", print_p},
+{"r", print_r},
+{"R", print_R},
 {NULL, NULL}
 
 };
