@@ -23,6 +23,7 @@ print_t p[] = {
 {"o", print_o},
 {"x", print_x},
 {"X", print_X},
+{"S", print_S},
 /** {"p", print_p},
  * {"S", print_S},
  * {"r", print_r},
