@@ -18,7 +18,23 @@ print_t p[] = {
 {"s", print_s},
 {"i", print_i},
 {"d", print_d},
+{"b", print_b},
 
+{"u", print_u},
+
+{"o", print_o},
+
+{"x", print_x},
+
+{"X", print_X},
+
+{"p", print_p},
+
+{"S", print_S},
+
+{"r", print_r},
+
+{"R", print_R},
 
 
 {NULL, NULL}
