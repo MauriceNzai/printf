@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdarg.h>
+#include <stdlib.h>
 
 /**
  * check_format - checks if there is a valid format specifier
@@ -26,7 +27,6 @@ print_t p[] = {
 {"r", print_r},
 {"R", print_R},
 {NULL, NULL}
-
 };
 
 for (; p[i].t != NULL; i++)
